@@ -24,6 +24,11 @@ section{
 .container.right{
     float:left;
 }
+section::after{
+    display: table;
+    content: "";
+    clear: both;
+}
 .img-container{
     position: relative;
 }

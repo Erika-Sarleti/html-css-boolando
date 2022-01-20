@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 80%;
+    margin: 20px auto;
+}
+.container{
+    width: calc(33% - 14px);
+    margin: 0 7px;
+}
+.container.left{
+    float: left;
+}
+.container.center{
+    float:left;
+}
+.container.right{
+    float:left;
+}
+img{
+    width: 100%;
+}

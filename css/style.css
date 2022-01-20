@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family:'Roboto', sans-serif;
+}
 
 section{
     width: 80%;
@@ -46,5 +49,33 @@ img{
 }
 
 .container:hover .second-view{
+    z-index: 1;
+}
+
+.sale, .tag{
+    position: relative;
+    bottom: 50px;
+    left:0px;
     z-index: 2;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    padding:0.4em;
+    
+}
+.tag{
+    background-color: green;
+
+}
+
+.sale{
+    background-color: #eb0037;
+}
+.price.red{
+    color:#ff3339;
+    font-weight: bold;
+}
+.old.price{
+    text-decoration:line-through;
 }

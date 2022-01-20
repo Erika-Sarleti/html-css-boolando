@@ -13,7 +13,7 @@ section{
 }
 .container{
     width: calc(33% - 14px);
-    margin: 0 7px;
+    margin: 20px 7px;
 }
 .container.left{
     float: left;
